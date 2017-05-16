@@ -135,6 +135,9 @@ li.lotsNumbers__content-container  {
 	}
 }
 @media (max-width:1000px) {
+	.container__lotsNumbers {
+		height:200px;
+	}
 	.lotsNumbers__scale  {
 		transform: scale(1);
 	}
@@ -144,7 +147,6 @@ li.lotsNumbers__content-container  {
 	}
 	li.lotsNumbers__content-container {
 		width: 320px;
-		height:200px;
 	}
 	.lotsNumbers__content {
     	margin: 0 auto;
