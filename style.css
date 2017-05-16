@@ -79,12 +79,7 @@ li.lotsNumbers__content-container  {
 
 }
 .lotsNumbers__button:nth-of-type(-n+2) {
-	width: 245px;
-	position: relative;
-
-}
-.lotsNumbers__button:nth-of-type(n+3) {
-	width: 166px;
+	width: 330px;
 	position: relative;
 
 }
@@ -93,6 +88,8 @@ li.lotsNumbers__content-container  {
 	z-index: 1;
 	left: 0;
 	top: 0;
+	width:inherit;
+	height:inherit;
 }
 .lotsNumbers__button a{
 	position: relative;
@@ -174,24 +171,22 @@ li.lotsNumbers__content-container  {
 	}
 
 	.lotsNumbers__button:nth-of-type(-n+2) {
-		width: 100px;
+		width: 140px;
 		position: relative;
 	
 	}
-	.lotsNumbers__button:nth-of-type(n+3) {
-		width: 100px;
-		position: relative;
-	
-	}
+
 	.lotsNumbers__buttons {
 		float: none;
 		margin-left: auto;
 		padding: 0;
 		text-align: center;
+		padding-left: 5px;
+		box-sizing: border-box ;
 	}
 	.lotsNumbers__button a {
 		font-size: 14px;
-		line-height: 41px;
+		line-height: 36px;
 	}
 	.lotsNumbers__svg--desk {
 		display: none;
