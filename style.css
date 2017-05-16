@@ -1,6 +1,7 @@
 .container__lotsNumbers {
 	background: #048998;
 	overflow: hidden;
+	height:260px;
 }
 li.lotsNumbers__content-container  {
 	width:1200px;
@@ -143,6 +144,7 @@ li.lotsNumbers__content-container  {
 	}
 	li.lotsNumbers__content-container {
 		width: 320px;
+		height:200px;
 	}
 	.lotsNumbers__content {
     	margin: 0 auto;
