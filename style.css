@@ -1,0 +1,217 @@
+.container__lotsNumbers {
+	background: #048998;
+	overflow: hidden;
+}
+li.lotsNumbers__content-container  {
+	width:1200px;
+}
+.lotsNumbers__scene {
+	height: 260px;
+	width:100%;
+}
+.lotsNumbers__scene li {
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:0 auto;
+	right:0;
+}
+.lotsNumbers__scene li.layer div {
+	width:120%;
+	height:120%;
+	top:-10%;
+	left:-10%;
+	position:relative;
+}
+.lotsNumbers__mini div {
+	background: url(images/small.png) no-repeat center center;
+}
+.lotsNumbers__middle div {
+	background: url(images/middle.png) no-repeat center center;
+}
+.lotsNumbers__large div {
+	background: url(images/large.png) no-repeat center center;
+}
+.lotsNumbers__pizdec div{
+	background: url(images/pizdecLarge.png) no-repeat center center;
+}
+
+.lotsNumbers__30 {
+	width: 414px;
+	height: 178px;
+	padding: 43px 10px 10px 15px;
+	float:left;
+}
+
+.lotsNumbers__content {
+	position: relative;
+	margin: 0 auto;
+	font: 400 16px/normal 'PT Sans';
+	width: 1200px;
+}
+.lotsNumbers__text {
+	background: url(images/text.svg) no-repeat center center;
+	height:98px;
+	float:left;
+	margin: 54px 10px 10px -10px;
+	position: relative;
+	width: 634px;
+}
+.lotsNumbers__hit {
+	background: url(images/star.svg) no-repeat center center;
+	width:136px;
+	height:136px;
+	position: absolute;
+	right: -96px;
+	top: -45px;
+}
+
+.lotsNumbers__buttons {
+	padding: 10px 10px 10px 10px;
+	margin-left: -39px;
+	float: left;
+}
+.lotsNumbers__button {
+	display: inline-block;
+	text-align: center;
+
+}
+.lotsNumbers__button:nth-of-type(-n+2) {
+	width: 245px;
+	position: relative;
+
+}
+.lotsNumbers__button:nth-of-type(n+3) {
+	width: 166px;
+	position: relative;
+
+}
+.lotsNumbers__button svg{
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+.lotsNumbers__button a{
+	position: relative;
+	display: block;
+	line-height: 60px;
+	z-index: 2;
+	font-size: 32px;
+	color: #fff;
+}
+.lotsNumbers__button:hover a{
+	color: #048998;
+}
+#ADfdasdaD{
+	fill:rgba(4, 137, 152, 0.9);
+	stroke: #fff;
+}
+.lotsNumbers__button:hover #ADfdasdaD{
+	fill: #f2f2f2;
+	stroke: #3BB4C1;
+}
+
+	.lotsNumbers__svg--desk {
+		display: block;
+	}
+	.lotsNumbers__svg--mob {
+		display: none;
+	}
+@media (max-width:1200px) {
+	.lotsNumbers__scale  {
+		transform: scale(.9);
+	}
+	li.lotsNumbers__content-container {
+		width: 1000px;
+	}
+	.lotsNumbers__content {
+    	margin: 0 -100px;
+    }
+    .lotsNumbers__30 {
+	    padding: 43px 10px 10px 33px;
+	}
+}
+@media (max-width:1000px) {
+	.lotsNumbers__scale  {
+		transform: scale(1);
+	}
+	.lotsNumbers__scene {
+	    height: 200px;
+	    width: 100%;
+	}
+	li.lotsNumbers__content-container {
+		width: 320px;
+	}
+	.lotsNumbers__content {
+    	margin: 0 auto;
+    	width:auto;
+    }
+    .lotsNumbers__30 {
+	    width: 202px;
+	    height: 87px;
+	    padding: 10px 10px 0px 5px;
+	    margin: 0 auto;
+	    float: none;
+	}
+	.lotsNumbers__text {
+		background: url(images/text--mob.svg) no-repeat center center;
+		margin: 6px 0px 0px 0px;
+		float: none;;
+	}
+	.lotsNumbers__hit {
+	background: url(images/star--mob.svg) no-repeat center center;
+	width: 89px;
+	height: 100px;
+	right: 1px;
+	top: -45px;
+
+	}
+
+	.lotsNumbers__button:nth-of-type(-n+2) {
+		width: 100px;
+		position: relative;
+	
+	}
+	.lotsNumbers__button:nth-of-type(n+3) {
+		width: 100px;
+		position: relative;
+	
+	}
+	.lotsNumbers__buttons {
+		float: none;
+		margin-left: auto;
+		padding: 0;
+		text-align: center;
+	}
+	.lotsNumbers__button a {
+		font-size: 14px;
+		line-height: 41px;
+	}
+	.lotsNumbers__svg--desk {
+		display: none;
+	}
+	.lotsNumbers__svg--mob {
+		display: block;
+	}
+	.lotsNumbers__text  {
+		width:100%;
+		height:54px;
+	}
+	.lotsNumbers__mini div {
+		background: transparent;
+	}
+	.lotsNumbers__middle div {
+		background: transparent;
+	}
+	.lotsNumbers__large div {
+		background:url(images/large--mobile.png) no-repeat center center;;
+	}
+	.lotsNumbers__pizdec div{
+		background: url(images/pizdecLarge--mobile.png) no-repeat center center;
+	}
+	.lotsNumbers__button {
+	margin-top: 3px;
+	}
+}

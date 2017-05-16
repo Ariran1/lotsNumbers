@@ -1,0 +1,18 @@
+<svg width="243" height="57" viewBox="0 0 243 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle 2</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-9338 -423)">
+<g id="Rectangle 2">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(9338 423)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(9338 423)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 233 0L 243 28.5L 233 57L 0 57L 10 28.5L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -3L -4.23195 -3L -2.8308 0.993263L 0 0ZM 233 0L 235.831 -0.993263L 235.127 -3L 233 -3L 233 0ZM 233 57L 233 60L 235.127 60L 235.831 57.9933L 233 57ZM 0 57L -2.8308 56.0067L -4.23195 60L 0 60L 0 57ZM 10 28.5L 12.8308 29.4933L 13.1793 28.5L 12.8308 27.5067L 10 28.5ZM 243 28.5L 245.831 29.4933L 246.179 28.5L 245.831 27.5067L 243 28.5ZM 0 3L 233 3L 233 -3L 0 -3L 0 3ZM 233 54L 0 54L 0 60L 233 60L 233 54ZM 2.8308 57.9933L 12.8308 29.4933L 7.1692 27.5067L -2.8308 56.0067L 2.8308 57.9933ZM 12.8308 27.5067L 2.8308 -0.993263L -2.8308 0.993263L 7.1692 29.4933L 12.8308 27.5067ZM 230.169 0.993263L 240.169 29.4933L 245.831 27.5067L 235.831 -0.993263L 230.169 0.993263ZM 240.169 27.5067L 230.169 56.0067L 235.831 57.9933L 245.831 29.4933L 240.169 27.5067Z"/>
+</defs>
+</svg>
