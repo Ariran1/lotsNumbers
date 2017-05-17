@@ -55,9 +55,9 @@ li.lotsNumbers__content-container  {
 	background: url(images/text.svg) no-repeat center center;
 	height:98px;
 	float:left;
-	margin: 54px 10px 10px -10px;
+	margin: 54px 10px 10px -19px;
 	position: relative;
-	width: 634px;
+	width: 642px;
 }
 .lotsNumbers__hit {
 	background: url(images/star.svg) no-repeat center center;
